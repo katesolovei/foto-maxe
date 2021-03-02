@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Old_Italic;
+    src: url("../fonts/old_Standard_TT_Italic.ttf");
+}
+
+@font-face {
+    font-family: Courier_Prime-Bold;
+    src: url("../fonts/courierPrime-Bold.ttf");
+}
+
+.title {
+    font-family: Old_Italic;
+    text-align: center;
+}
+
+.form_class{
+    width: 45%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submit_btn {
+    border-radius: 5px;
+    width: 25%;
+    height: 50px;
+    position: relative;
+    background-color: #2be2bd;
+    font-family: Old_Italic;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.submit_btn:hover{
+    cursor: pointer;
+}
+
+.input_field{
+    margin: 10px;
+    padding: 10px;
+    font-family: Old_Italic;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.table{
+    margin: auto;
+    font-family: Courier_Prime-Bold;
+    font-size: 22px;
+}
+
+.master_login{
+    font-family: Courier_Prime-Bold;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.inp_image{
+    width: 20px;
+    height: 20px;
+}
